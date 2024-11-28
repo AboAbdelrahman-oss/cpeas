@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI PDF Processor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <h1>AI PDF Processor</h1>
+        <form id="upload-form" enctype="multipart/form-data">
+            <label for="pdf-file">Upload Engineering PDF:</label>
+            <input type="file" id="pdf-file" name="pdf-file" accept=".pdf">
+            <button type="submit">Upload</button>
+        </form>
+
+        <div id="questions-section">
+            <label for="question">Ask a Question:</label>
+            <input type="text" id="question" placeholder="Enter your question here">
+            <button id="ask-btn">Ask</button>
+        </div>
+
+        <div id="response">
+            <p><strong>Answer:</strong> <span id="answer-text"></span></p>
+            <button id="download-excel">Download as Excel</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
