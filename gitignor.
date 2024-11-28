@@ -1,0 +1,21 @@
+``gitignore
+# Python
+*.pyc
+__pycache__/
+
+# Virtual environments
+venv/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Database files
+*.db
+
+# Excel files
+*.xlsx
+
+# IDE files
+.vscode/
+.idea/
