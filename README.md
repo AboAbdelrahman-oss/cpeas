@@ -18,3 +18,17 @@
 1. قم بتثبيت المتطلبات:
    ```bash
    pip install -r requirements.txt
+2. شغل المشروع:
+
+python main.py
+
+
+3. لعرض الملاحظات:
+
+python dashboard/dashboard.py
+
+
+4. لبدء واجهة الويب:
+
+python manage.py runserver
+
