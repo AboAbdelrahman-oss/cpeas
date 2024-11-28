@@ -31,4 +31,10 @@ python dashboard/dashboard.py
 4. لبدء واجهة الويب:
 
 python manage.py runserver
+ملاحظة:
+
+لضمان أتمتة عملية التدريب والتخزين السحابي، تم تكامل النظام مع AWS S3.
+
+تم استخدام Django و React لتطوير واجهة المستخدم.
+
 
